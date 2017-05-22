@@ -34,7 +34,7 @@ class Usuario
 
         if($this->login =='lucas'){
 
-            header('Location: PaginaInicial.php');
+            header('Location: PaginaCadastro.php');
 
 
         }

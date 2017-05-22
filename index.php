@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<form method="get" name="login">
+<form method="post" name="login">
 <input type="text" name = "usuario">
 <input type="password" name = "senha">
 <input type="submit" value="Entrar">
@@ -17,8 +17,8 @@
 require_once 'Usuario.php';
 
 $user = new Usuario;
-$login = $_GET['usuario'];
-$senha = $_GET['senha'];
+$login = $_POST['usuario'];
+$senha = $_POST['senha'];
 $user ->login = $login;
 $user ->senha = $senha;
 $user ->testa();

@@ -1,5 +1,0 @@
-<?php
-
-printf('Autenticado');
-
-?>
