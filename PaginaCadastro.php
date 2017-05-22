@@ -2,9 +2,6 @@
 
 <head><title>Pagina De Cadastro</title></head>
 <body>
-<?php
-
-?>
 
     <h1>Bem Vindo!!</h1>
     <h2>Cadastro de Produto</h2> <br/>
@@ -14,7 +11,14 @@
     <label>Preço: </label> <input type="text" name="preco"> <br/>
     <input type="submit" name="Cadastrar">
 
+    <?php
 
+    require_once ("Produto.php");
+
+
+
+
+    ?>
 
 </form>
 
