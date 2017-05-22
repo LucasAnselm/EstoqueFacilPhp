@@ -10,7 +10,7 @@
     <label>Descrição: </label> <input type="text" name="descricao"> <br/>
     <label>Quantidade: </label> <input type="text" name="quantidade"> <br/>
     <label>Preço: </label> <input type="text" name="preco"> <br/>
-    <input type="submit" name="Cadastrar">
+    <input type="submit" value="Cadastrar">
 
     </form>
 
@@ -30,7 +30,8 @@
     $produto -> quantidade = $quantidade;
     $produto -> preco = $preco;
 
-
+    $conexãoBD = new conexãoBD();
+    $conexãoBD ->conectar();
 
 
 
